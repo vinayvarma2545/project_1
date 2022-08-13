@@ -1,0 +1,70 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>feedback_form</title>
+    </head>
+    <body style="width:720px; margin-left: 25%; " >
+        <form name="feedback" onsubmit="signup" method="post" style="text-align:center;background-color: rgb(49, 197, 207);">
+            <h1 style="color:darkred ;"><u>Career Guidance & Consultancy Services</u> </h1>
+            <h5>Provide your valuable feedback</h5>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name"><br>
+            <div style="padding:10px ;">
+            <input type="number email" placeholder="Mobile number or email address" style="width: 480;"><br>
+            </div>
+
+            <div style="padding: 10px;">
+            <textarea placeholder="why did you joined CGCS?"></textarea><br>
+            </div>
+
+            <div style="padding:10px ;">
+            <u>Level of knowledge in HTML & CSS</u><br>
+            <label for="range">before starting the course</label>
+            <select name="range">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <label for="range">after complition of course</label>
+            <select name="range">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select><br>
+            </div>
+
+            <div style="padding:10px ;">
+            <label for="faculty"><u>Interaction between faculty & students</u>:-
+            <input type="radio" name="interaction" value="good">Good
+            <input type="radio" name="interaction" value="bad">Bad</label> <br>
+            </div>
+
+            <div style="padding:10px;">
+                <u>satisfactory Level</u><br>
+                <label for="teaching">Teaching</label>
+                <input type="range" list="tickmarks"><br>
+                <label for="infrastructure">Infrastructure</label>
+                <input type="range" list="tickmarks"><br>
+                <label for="softskills">Softskills</label>
+                <input type="range" list="tickmarks"><br>
+                <label for="mockinterviews">Mock-interviews</label>
+                <input type="range" list="tickmarks"><br>
+            </div>
+
+            <div style="padding:10px ;">
+            <U>Are there any changes to make in teaching criteria:-</U><br>
+            <textarea placeholder="what? & why?"></textarea><br>
+            </div>
+
+            <div style="padding:10px;">
+              <button>  <a href="svg.html">SUBMIT</a> </button>
+            <!-- <button type="submit" style="background-color:green;"> SUBMIT </button><br> -->
+            </div>
+            <!-- <p style="font-size:xx-small;">By clicking Sign Up, you agree to our Terms&Conditions</p><br> -->
+        </form>
+    </div>
+    </body>
+</html>
